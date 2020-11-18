@@ -37,18 +37,27 @@
     * Make sure sqlite connection will be there at Config/database.php
 
     * Root Directory -> phpunit.xml add the following in between <php>  Add here </php>
+    
 
         <server name="DB_CONNECTION" value="sqlite"/>
         <server name="DB_DATABASE" value=":memory:"/> 
 
+
     * clear config cache : Use either one of the following
+    
          php artisan cache:clear
+         
          php artisan optimize  
+         
 
     * Test with following command on terminial 
+    
         Option 1: php artisan test 
+        
         Option 2: composer test
+        
         Option 3: ./vendor/bin/phpunit
+        
 
 7.  API End point access 
 
