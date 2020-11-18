@@ -50,10 +50,14 @@
 7.  API End point access 
 
     Get Incident : {server url}/api/incident
+    
     Post Incident: {server url}/api/incident
+    
 
     Get Incident Sort by field , order by  : {server url}/api/incident?sort_by=title&order_by=desc
+    
     Get Incident filter by field: {server url}/api/incident?title=test
+    
     Pagination: {server url}/api/incident?page=2
 
 
