@@ -67,7 +67,7 @@
 
         Post method : just enter url which is {server url}/api/incident
 
-          input format : Go to Body and select raw and copy the paste there and choose input as json
+          input format : Go to postman body option and select raw and copy the below format paste there and choose input as json
             {
                 "location": {
                     "longitude": "1212",
