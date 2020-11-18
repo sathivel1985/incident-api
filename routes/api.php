@@ -20,9 +20,10 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
 */
+
 /*
-	@incident Api Resource route ( index, store, show, delete )
+	@incident Api Resource route ( index, store )
 */
 
-Route::Resource('incidents', IncidentController::class)->only(['index','store','show']);
+Route::Resource('incidents', IncidentController::class)->only(['index','store']);
 
