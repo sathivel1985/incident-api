@@ -13,11 +13,17 @@
     APP_ENV: choose which mode want to run either local production
     
     DB_CONNECTION=mysql
+    
 	DB_HOST= host name
+    
 	DB_PORT= port number
+    
 	DB_DATABASE= DB Name
+    
 	DB_USERNAME= db username 
+    
 	DB_PASSWORD= db password
+    
 
 5. Migration :  with the following commend
 
