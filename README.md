@@ -1,11 +1,14 @@
 # incident-api
 // open the terminal/commend prompt navigate to the folder 
+
 1. $ cd incident-api
 
 //install dependencies
+
 2. $ composer install
 
 // copy the .env file from .env.example
+
 3. cp .env.example .env
 
 4. update the database information in .env  with the following
